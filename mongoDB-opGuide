@@ -1,0 +1,8 @@
+**On Windows**
+start the mongod service by typing into an admin cmd promt window like so
+c:\mongodb\bin\mongod.exe //(path-to-mongod)
+then open another cmd promt window and type
+c:\mongodb\mongo.exe
+
+
+
