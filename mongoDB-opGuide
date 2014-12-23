@@ -5,4 +5,18 @@ then open another cmd promt window and type
 c:\mongodb\mongo.exe
 
 
+**If you get the 10061 error message**
+change directory to root drive "C:\", and type the command below into an admin cmd prompt window,
 
+c:\mongodb\bin\mongod.exe --config c:\mongodb\mongod.cfg --install
+
+then type net start MongoDB you will get the message "The Mongo DB service was started successfully"
+
+Then go to the control panel Start>Administrative Tools>Services, scroll to Mongo DB in the list of services and change start up type to automatic, if you so desire. Press ok.
+
+Now type c:\mongodb\bin\mongo.exe and you should be connected to the Mongo test DB.
+
+Reference: https://www.youtube.com/watch?v=-mik4dPArCU
+
+
+**on mac**
