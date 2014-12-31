@@ -22,5 +22,6 @@ Reference: https://www.youtube.com/watch?v=-mik4dPArCU
 
 
 **on mac**
-after installing mongoDB, run mongo. then in another terminal window or same terminal window run mongo
+after installing mongoDB, run mongod. then in another terminal window /*#or same terminal window*/ run mongo
+hack away :)
 http://www.infiniteskills.com/demos/movie-player.php?h=565&w=970&sku=01888&movie=http://infiniteskills.bc.cdn.bitgravity.com/iskills-media/mongodb-demo/0304.mp4&site=isk
