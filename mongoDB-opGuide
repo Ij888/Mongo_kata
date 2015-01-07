@@ -25,3 +25,12 @@ Reference: https://www.youtube.com/watch?v=-mik4dPArCU
 after installing mongoDB, run mongod. then in another terminal window /*#or same terminal window*/ run mongo
 hack away :)
 http://www.infiniteskills.com/demos/movie-player.php?h=565&w=970&sku=01888&movie=http://infiniteskills.bc.cdn.bitgravity.com/iskills-media/mongodb-demo/0304.mp4&site=isk
+
+
+//mongoDB methods type the leading verbs into terminal
+
+use db_name -- where db_name is the name of desired db, if this db exists you get switched to it if no, it creates a db with this name and switches you into it
+
+db -- shows you the current db youre switched into
+
+db.createCollection(cName) -- this creates a new collection in the db you are in
