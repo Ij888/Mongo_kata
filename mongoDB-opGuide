@@ -29,7 +29,7 @@ http://www.infiniteskills.com/demos/movie-player.php?h=565&w=970&sku=01888&movie
 
 //mongoDB methods type the leading verbs into terminal
 
-use db_name -- where db_name is the name of desired db, if this db exists you get switched to it if no, it creates a db with this name and switches you into it
+use db_name -- where db_name is the name of desired db. if this db exists you get switched to it; if no, it creates a db with this name and switches you into it
 
 db -- shows you the current db youre switched into
 
