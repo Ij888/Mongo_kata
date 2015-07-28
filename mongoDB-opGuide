@@ -1,7 +1,7 @@
 ##myUnofficialMongoDBGuide##
 
 **On Windows**
-start the mongod service by typing into an admin cmd promt window like so
+start the mongod service by typing into an admin cmd prompt window like so
 c:\mongodb\bin\mongod.exe //(path-to-mongod)
 then open another cmd promt window and type
 c:\mongodb\bin\mongo.exe
@@ -34,3 +34,5 @@ use db_name -- where db_name is the name of desired db. if this db exists you ge
 db -- shows you the current db youre switched into
 
 db.createCollection(cName) -- this creates a new collection in the db you are in
+
+db.DB_NAME.find() -- shows the content of the data stores
