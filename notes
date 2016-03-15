@@ -1,0 +1,7 @@
+How would you find all documents in the scores collection where the score is less than 50 or greater than 90?
+
+Note: We're afraid that the parser has trouble recognizing when you switch the order, so be sure to put your "less than" operator before your "greater than" one.
+
+db.scores.find({$or:[{score:{$lt:50}},{score:{$gt:90}}]});
+
+http://www.tutorialspoint.com/mongodb/mongodb_quick_guide.htm

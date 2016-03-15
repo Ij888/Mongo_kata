@@ -1,0 +1,7 @@
+{
+name: "green",
+email_address: "green@color.net",
+marital_status: "single",
+occupation: "color",
+complementary: ['yellow', 'red', 'grey', 'white', 'orange']    
+}
